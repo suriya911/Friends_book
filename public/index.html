@@ -5,42 +5,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friends Book</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <h1 id="TitleName" name="Tite tag">FRIENDS BOOK</h1><br><br><br>
-		<form>
-        <label id="yourName" name="form tag">Your Name:</label>
+    <img src="https://cdn.pixabay.com/photo/2018/01/12/14/24/night-3078326_1280.jpg" id="backgroundImage" class="image">
+    <form class="content">
+        <br><br>
+        <h1 id="TitleName" name="Tite tag">FRIENDS BOOK</h1>
+        <br><br>
+        <label id="yourName" name="form tag" class="question">Your Name:</label>
         <input type="text" name="input tag" id="textBox"><br><br>
 
-        <label id="field1" name="label tag">1. A message for me! </label><br><br>
+        <label id="field1" name="label tag" class="question">1. A message for me! </label><br><br>
         <textarea id="textBox1" name="input tag" type="text"></textarea><br><br>
 
-        <label id="question">2. A nick name for me?</label><br><br>
+        <label class="question">2. A nick name for me?</label><br><br>
         <textarea id="textBox2" name="input tag" type="text"></textarea><br><br>
 
-        <label id="question">3. Have you ever lied to me?</label><br><br>
+        <label class="question">3. Have you ever lied to me?</label><br><br>
         <input type="radio" value="Yes" id="yesMayBe" name="input tag">
         <label>Yes</label>
         <input type="radio" value="Maybe">
         <label>Maybe</label><br><br>
 
-        <label id="question">4. How do you feel when you talk to me?</label><br><br>
+        <label class="question">4. How do you feel when you talk to me?</label><br><br>
         <input type="radio" value="Happy">
         <label>Happy</label>
         <input type="radio" value="Irritated">
         <label>Irritated</label><br><br>
 
-        <label id="question">5. Do you like to go on a roadtrip with me?</label><br><br>
+        <label class="question">5. Do you like to go on a roadtrip with me?</label><br><br>
         <input type="radio" value="Yes" id="yesMayBe">
         <label>Yes</label>
         <input type="radio" value="Maybe">
         <label>No</label><br><br>
 
-        <label id="question">6. Best colour that suits me? </label>
+        <label class="question">6. Best colour that suits me? </label>
         <br><br>
         <input type="checkbox" value="Red" id="bestColour" name="input tag">
         <label>Red</label>
@@ -53,11 +55,9 @@
         <input type="checkbox" value="Green">
         <label>Green</label> <br><br>
 
-        <label id="question">7. The best moment in our Friendship?</label><br><br>
+        <label class="question" id="question">7. The best moment in our Friendship?</label><br><br>
         <textarea id="textBox2"></textarea>
-		</form>
-    </div>
-
+    </form>
 </body>
 
 </html>
